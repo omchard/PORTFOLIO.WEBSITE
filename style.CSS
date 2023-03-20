@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;  
+    flex-direction: column;  
+
+}
+#Welcome{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+    width: 100%;
+    height:60vh;
+
+}
+.content h1{
+    margin-left: 40px;
+}
+.content h4{
+    margin-left: 40px;
+}
+.content h3{
+    margin-left: 100px;
+    margin-top: 0px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:gold;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-content: space-between;
+}
+a{
+    justify-content: space-around;
+    text-decoration: none;
+    align-content: space-around;
+    padding-right: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: 1rem 2rem;
+}
+a:hover{
+    color:#665D1E;
+    transition: 4ms;
+}
+.logo{
+    color:black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: capitalize;    
+}
+span{
+    color:#665D1E;
+}
+#Welcome{
+    top: 50%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    height: 400px;
+}
+h1{
+    color:white;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+    padding-bottom: 2px;
+}
+h3{
+    color:#665D1E;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-top: 150px;
+}
+.pic{
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    width: 430px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #665D1E;
+
+}
+button{
+    background-color: gold;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 40px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid gold;
+    color: gold;
+}
+.about-text{width: 550px;
+color: white;}
+.main{
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ .about-text h2{
+    color: gold;
+    font-size: 75px;
+    margin-bottom: 20px;
+ }
+ .about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height:28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+ }
+.service{
+    background: white;
+    width: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.title{
+    color: #665D1E;
+    font-size: 60px;
+    width: 1100px;
+    text-align:  center;
+    padding-top: 10px;
+    margin-left: -200px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    background-color: #191919;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+ i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px opx;
+    color: gold;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra{color: whitesmoke;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+.button{
+    background-color: gold;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 40px;
+    transition: .4s;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid gold;
+    color: gold;
+}
+.contacts{
+    width: 100%;
+    height: 300px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+.contacts .button-two{
+background-color: gold;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 40px;
+    transition: .4s;
+}
+.contacts .button-two:hover{
+    background-color: transparent;
+    border: 2px solid gold;
+    color: gold;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: #665D1E;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.social{
+    display: flex;
+    align-content: space-around;
+    width: 200%;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.fa-brands{
+    color: blue;
+}
+.fa-brands fa-whatsapp{
+    color: pink;
+}
